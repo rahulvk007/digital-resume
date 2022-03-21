@@ -156,19 +156,19 @@
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_associations %}
+      {% if site.resume_section_cocurricular %}
       <!-- begin Associations -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2>Co-cocurricular Activities</h2>
         </header>
 
-        {% for association in site.data.associations %}
+        {% for association in site.data.cocurricular %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
+          <h3 class="resume-item-title" itemprop="name">{% if cocurricular.url %}<a href="{{ cocurricular.url }}">{{ cocurricular.organization }}</a>{% else %}{{ cocurricular.organization }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ cocurricular.role }} &bull; {{ cocurricular.year }}</h4>
+          <p class="resume-item-copy">{{ cocurricular.summary }}</p>
         </div>
         {% endfor %}
 
@@ -233,8 +233,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Rahul Vijayakumar 21BCE5278</p>
       </footer>
 
     </div>
