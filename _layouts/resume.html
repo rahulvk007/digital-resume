@@ -48,26 +48,6 @@
 
       </header>
 
-      {% if site.resume_section_biodata %}
-      <!-- begin biodata -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Biodata</h2>
-        </header>
-
-        {% for job in site.data.biodata %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
-        {% endfor %}
-
-      </section>
-      <!-- end biodata -->
-      {% endif %}
-
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
@@ -96,6 +76,25 @@
       <!-- end Education -->
       {% endif %}
 
+      {% if site.resume_section_techskills %}
+      <!-- begin techskills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Technical Skills</h2>
+        </header>
+
+        {% for job in site.data.techskills %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ job.position }} </h4>
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end skills -->
+      {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
