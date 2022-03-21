@@ -4,10 +4,9 @@
 # jazznotes.io
 - project: EXAM READERS – Hackhub 2022 hackathon project
   role: Team leader
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
+  duration: 2022
+  url: "https://github.com/rahulvk007/hackathon-project"
+  description: This program allows you to conduct MCQ based tests digitally. The teacher can login as administrator and upload the questions and answers and the students can take those tests. The test will be evaluated automatically and the score will be displayed on the completion of the test.
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group
   role: Co-Founder & Organizer
