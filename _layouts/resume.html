@@ -156,7 +156,7 @@
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_cocurricular %}
+      {% if site.resume_section_cocurriculars %}
       <!-- begin Associations -->
       <section class="content-section">
 
@@ -164,7 +164,7 @@
           <h2>Co-cocurricular Activities</h2>
         </header>
 
-        {% for association in site.data.cocurricular %}
+        {% for cocurricular in site.data.cocurriculars %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if cocurricular.url %}<a href="{{ cocurricular.url }}">{{ cocurricular.organization }}</a>{% else %}{{ cocurricular.organization }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ cocurricular.role }} &bull; {{ cocurricular.year }}</h4>
