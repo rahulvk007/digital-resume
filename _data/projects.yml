@@ -20,7 +20,7 @@
   duration: 2021
   stack: Python, Flask, Beautifulsoup4, SQLite
   url: "https://rahulvk.vercel.app"
-  description: You can enter the atomic number of any element and it will show you all the information about that element in an organized manner. Some of the information is locally stored and the rest is fetched live from Wikipedia.<br><img src="/digital-resume/images/projectimg.jpg" alt="Project image" width="300" height="300">
+  description: You can enter the atomic number of any element and it will show you all the information about that element in an organized manner. Some of the information is locally stored and the rest is fetched live from Wikipedia.<br><img src="/digital-resume/images/projectimg.jpg" alt="Project image" width="350" height="728">
 
 
 - project: Verdure Healthcare – Hackathon project
