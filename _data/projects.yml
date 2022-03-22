@@ -7,6 +7,7 @@
   url: "https://github.com/rahulvk007/hackathon-project"
   stack: Python, SQLite, Tkinter
   description: This program allows you to conduct MCQ based tests digitally. The teacher can login as administrator and upload the questions and answers and the students can take those tests. The test will be evaluated automatically and the score will be displayed on the completion of the test.
+  image: examreaders.png
 
 - project: Wikipedia Voice Search
   role: Individual project
@@ -15,7 +16,7 @@
   url: "https://github.com/rahulvk007/myworks/tree/main/wikipedia-voice-search"
   description: This program allows you to search for anything using your voice. Once you run the program, you can click on the speak button and then tell what you want to search. It will automatically fetch information from Wikipedia about what you said and display just the information to you.
   image: voice-search.jpg
-  
+
 - project: Chemical Elements Web app
   role: Individual project
   duration: 2021
@@ -30,3 +31,4 @@
   role: Team leader
   url: "https://github.com/rahulvk007/myworks/tree/main/HACKATHON%20PROJECT"
   description: Provides the user with information about all the doctors of different departments working at different hospitals. Users can also post reviews and ratings for each doctor and they can also read the reviews given by other users.
+  image: verdurehealthcare.jpg
