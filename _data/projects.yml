@@ -2,7 +2,7 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 - project: EXAM READERS – Hackhub 2022 hackathon project
-  role: Team leader
+  role: Team leader &bull; Team of 4
   duration: 2022
   url: "https://github.com/rahulvk007/hackathon-project"
   stack: Python, SQLite, Tkinter
