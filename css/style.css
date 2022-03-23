@@ -31,7 +31,7 @@ body{
 .skill-per{
   height: 20px;
   background-color: #0fbcf9;
-  border-radius: 8px;
+  border-radius: 0px;
   width: 0;
   transition: 1s linear;
   position: relative;
