@@ -42,6 +42,7 @@ resume_section_links:           true
 resume_section_cocurriculars:    true
 resume_section_interests:       true
 resume_section_certifications: true
+resume_section_areasofinterest: true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
