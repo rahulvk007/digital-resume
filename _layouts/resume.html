@@ -185,7 +185,66 @@
           <p class="resume-item-copy">{{ skill.description }}</p>
         </div>
         {% endfor %}
+        <div class="skills">
+        <div class="skill">
+          <div class="skill-name">Python</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="90"></div>
+          </div>
+        </div>
 
+        <div class="skill">
+          <div class="skill-name">Flask Framework</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="75"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Tkinter</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="65"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">C</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="57"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="48"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="35"></div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.skill-per').each(function(){
+          var $this = $(this);
+          var per = $this.attr('per');
+          $this.css("width",per+'%');
+          $({animatedValue: 0}).animate({animatedValue: per},{
+            duration: 1500,
+            step: function(){
+              $this.attr('per', Math.floor(this.animatedValue) + '%');
+            },
+            complete: function(){
+              $this.attr('per', Math.floor(this.animatedValue) + '%');
+            }
+          });
+        });
+      </script>
       </section>
       <!-- end Skills -->
       {% endif %}
