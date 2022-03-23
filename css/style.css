@@ -4,7 +4,7 @@ body{
   font-family: 'Open Sans',sans-serif;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: left;
   background: #f1f1f1;
 }
