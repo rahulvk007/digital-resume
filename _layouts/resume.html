@@ -123,32 +123,7 @@
       <!-- end skills -->
       {% endif %}
 
-      % if site.resume_section_areasofinterest %}
-      <!-- begin Education -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Areas of Interest</h2>
-        </header>
-
-        {% for ar in site.data.areasofinterest %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ ar.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ ar.degree }} &bull; {{ ar.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ ar.award }}</h5>
-          <p class="resume-item-copy" itemprop="description">
-            <ul class="resume-item-list">
-              {% for award in ar.awards %}
-              <li>{{ ar.award }}</li>
-              {% endfor %}
-            </ul>
-
-
-          <p class="resume-item-copy">{{ ar.summary }}</p>
-        </div>
-        {% endfor %}
-      </section>
-      <!-- end Education -->
-      {% endif %}
+    
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
