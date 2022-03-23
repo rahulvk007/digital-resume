@@ -17,10 +17,10 @@ resume_title:                   "Student at VIT Chennai"
 resume_contact_email:           "rahul.vijayakumar2021@vitstudent.ac.in"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "8848751055"
+resume_contact_telephone:       ""
 resume_contact_address:         "Kerala, India"
 
-resume_header_contact_info:     "Kerala, India • 8848751055 • rahul.vijayakumar2021@vitstudent.ac.in"
+resume_header_contact_info:     "Kerala, India •  • rahul.vijayakumar2021@vitstudent.ac.in"
 display_header_contact_info:    "false"
 
 resume_header_intro: "<p>To work as a developer at a reputed product based company where I can apply my skills and work on the latest cutting edge areas of computer science. I want to develop and deploy applications in AI and Machine learning related domains.</p>"
