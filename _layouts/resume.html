@@ -76,6 +76,33 @@
       <!-- end Education -->
       {% endif %}
 
+      {% if site.resume_section_certifications %}
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Certifications</h2>
+        </header>
+
+        {% for c in site.data.certifications %}
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">{{ c.uni }}</h3>
+          <h4 class="resume-item-details group" itemprop="description">{{ c.degree }} &bull; {{ c.year }}</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">{{ c.award }}</h5>
+          <p class="resume-item-copy" itemprop="description">
+            <ul class="resume-item-list">
+              {% for award in c.awards %}
+              <li>{{ award.award }}</li>
+              {% endfor %}
+            </ul>
+
+
+          <p class="resume-item-copy">{{ c.summary }}</p>
+        </div>
+        {% endfor %}
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
       {% if site.resume_section_techskills %}
       <!-- begin techskills -->
       <section class="content-section">
